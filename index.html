@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
     integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
@@ -13,11 +12,17 @@
     integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
     crossorigin=""></script>
 
-    <!-- <title>Where the ISS At?</title> -->
+    <title>Where's the ISS</title>
 
 </head>
 <body>
-    <h1>Where is the ISS?</h1>
+
+    <div id = "header">
+        <h1>Where is the ISS?</h1>
+
+        <p> This tool shows the live location of the international space station on a world map, and the path that it has taken since you loaded the page. The location refreshes every 5 seconds. It is coded in Javascript and uses Leaflet and Open Street Maps to render the map. 
+        </p>
+    </div>
 
     <hr>
 
@@ -40,6 +45,7 @@
     </div>
 
     <hr>
+
 
     <p id="author">Taya L  
         <a href="https://github.com/tayaaaa/satellite-tracker" target="blank"><img src="./assets/GitHub-Mark-Light-32px.png"/></a>
