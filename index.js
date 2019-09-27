@@ -54,9 +54,9 @@ const updateMarker = (latitude, longitude, mark) => {
 
     previousMarker = newMarker;
 
-    let polyline = L.polyline(polylinePoints, {color: 'red'}).addTo(map);
+    L.polyline(polylinePoints, {color: 'red'}).addTo(map);
     map.setView([latitude, longitude], 3)
 }
-
 showMap(map);
+getISSData()
 setInterval(getISSData, 5000)
