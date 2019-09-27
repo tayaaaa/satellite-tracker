@@ -1,7 +1,7 @@
 const myIcon = L.icon({
-    iconUrl: 'myIcon.svg',
+    iconUrl: './assets/myIcon.svg',
     iconSize: [50, 50],
-    shadowUrl: 'shadow.png',
+    shadowUrl: './assets/shadow.png',
     shadowSize: [40, 40],
 });
 
